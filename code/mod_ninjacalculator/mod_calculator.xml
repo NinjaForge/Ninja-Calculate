@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Ninja Calculator</name>
+	<author>Theo van der Sluijs</author>
+	<creationDate>October 2007</creationDate>
+  <copyright>(C) 2007 VanderSluijs.nl, in cooperation with Ninjoomla - www.ninjoomla.com</copyright>
+  <license>PHP - http://www.gnu.org/copyleft/gpl.html GNU/GPL, JavaScript and CSS  : http://creativecommons.org/licenses/by-nc-sa/3.0/</license>
+	<authorEmail>theo@vandersluijs.nl</authorEmail>
+  <authorUrl>http://www.ninjoomla.com</authorUrl>
+	<version>1.1</version>
+	<description>
+<![CDATA[
+  <h3 align="center">Ninja Calculator  V.1.1</h3>
+<center>    
+    <a href="http://www.ninjoomla.com" target="_self">
+    <img src="../modules/mod_calculator/mod_calculator/box_modcalculator_sml.jpg" alt="Visit the Ninjoomla Open Source Extension Club" 
+         title="Visit Ninjoomla" style="border:none;"/>
+    </a>
+<br/>
+<br/>
+    <p>&copy; Copyright 2007 VanderSluijs.nl, in partnership with Ninjoomla.com. All rights 
+        reserved.</p>
+    <p>This module show a nice small calculator</p>
+</center>
+<P>How to install this module.</P>
+<ol>
+	<li>Just install it as any other module.</li>
+	<li>Publish the module</li>
+	<li>Done ! 
+	</li>
+</ol>
+
+ <P>You can set your own stylesheet specs in mod_calculator.css</P>
+<br/ >
+<br/ >
+  <strong>Changelog and features:</strong><br/>
+    V 1.1 Oct, 07 : Fixed Version<br />
+  <ul>
+  <li>Fixed some small bugs</li>
+  </ul> 
+    V 1.0 Sep, 07 : Initial Version<br />
+  <ul>
+  <li>First Version</li>
+  </ul> 
+<br />
+<br />
+
+<style>
+    .buttons {border:none; padding: 3px 0 3px 0;}
+</style>
+<center>
+		<a href="http://www.ninjoomla.com" target="_self">
+			<img  class="buttons" src="../modules/mod_calculator/mod_calculator/ninjoomla.png" alt="Visit Ninjoomla" title="Visit Ninjoomla"/>
+		</a>
+		<a href="http://www.spreadfirefox.com/" target="_self">
+			<img class="buttons" src="../modules/mod_calculator/mod_calculator/firefox2.gif" alt="Get Firefox for  a better Web experience" 
+				title="Get Firefox For A better Web Experience"/>
+		</a><br/>
+		<a href="http://jcd-a.org" target="_self">
+			<img class="buttons" src="../modules/mod_calculator/mod_calculator/jcda.png" alt="Ninjoomla is a JCDA Member" title="Ninjoomla is a JCDA Member"/>
+		</a><br/>
+		<a href="http://validator.w3.org/check?uri=referer" target="_self">
+			<img  class="buttons" src="../modules/mod_calculator/mod_calculator/validation_xhtml.png" alt="Valid XHTML Transitional" title="Valid XHTML Transitional"/>
+		</a><br/>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_self">
+			<img  class="buttons" src="../modules/mod_calculator/mod_calculator/validation_css.png" alt="Valid CSS" title="Valid CSS"/>
+		</a><br/><br/><br/>
+	</center>
+]]>
+  </description>
+	<files>
+		<filename module="mod_calculator">mod_calculator.php</filename>
+		<filename module="mod_calculator">mod_calculator/mod_calculator.css</filename>
+    <filename module="mod_calculator">mod_calculator/box_modcalculator_sml.jpg</filename>
+    <filename module="mod_calculator">mod_calculator/ninjoomla.png</filename>
+    <filename module="mod_calculator">mod_calculator/firefox2.gif</filename>
+    <filename module="mod_calculator">mod_calculator/jcda.png</filename>
+    <filename module="mod_calculator">mod_calculator/validation_xhtml.png</filename>
+    <filename module="mod_calculator">mod_calculator/validation_css.png</filename>       
+    <filename module="mod_calculator">mod_calculator/mod_calculator.js</filename>       
+	</files>
+</install>

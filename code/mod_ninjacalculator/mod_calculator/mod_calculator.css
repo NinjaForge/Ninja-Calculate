@@ -1,0 +1,25 @@
+/* 
+* package : Ninja Calculator Module
+* author : Theo van der Sluijs
+* link : http://www.vandersluijs.nl, http://www.ninjoomla.com
+* Description : Just a nifty calculator
+* copyright : Copyright (C) 2007 VanderSluijs.nl, in cooperation with www.ninjoomla.com - Code so sharp, it hurts.
+* email: theo@vandersluijs.nl
+* date:  October 2007
+* Release: 1.1
+* PHP Code License : http://www.gnu.org/copyleft/gpl.html GNU/GPL 
+* JavaScript Code & CSS  : http://creativecommons.org/licenses/by-nc-sa/3.0/
+*/
+
+#calc_container{text-align:center;width:150px}
+#calc_outcome{
+	text-align:right;
+	padding-bottom:9px;
+	padding-top:5px;
+	padding-left: 2px;
+	height:5px;
+}
+.calc_buttonrow{text-align:center;}
+.calc_button_left{text-align:center;width:35px;float:left;margin: 1px 1px 1px 1px;}
+.calc_button_right{text-align:center;width:35px;float:right;margin: 1px 1px 1px 1px;}
+.calc_spacer { clear: both }
